@@ -5,7 +5,7 @@ Este proyecto consiste en añadir un texto y le puedes indicar el tamaño en el 
 Para hacer que este proyecto funcione de esta manera hemos usado:
 - Un binding para unir el xml con la clase usada que en este caso ha sido ChangeSizeTextActivity.
 - Una vez unida dichas clases hemos creado un bundle al que le hemos añadidos los datos los cuales pasa el usuario.
-- Los datos de dicha clase los proporciona la clase Application la cual hemos tenido que sobreescribir para crear una nuestra propia
+- Los datos de dicha clase los proporciona la clase Message a la que le hemos pasado por parametros una clase Application la cual hemos tenido que sobreescribir para crear una nuestra propia
 - Luego añadimos dicho Bundle con el mensaje al Intent y con la posterior actualización de los campos, asi obtendriamos los datos en la otra activity.
 
 Todo dicha informacion esta explicada en este enlace:
